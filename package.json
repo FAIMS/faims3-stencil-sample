@@ -1,0 +1,26 @@
+{
+  "name": "faims3-stencil-sample",
+  "private": true,
+  "version": "0.0.1",
+  "description": "faims3-stencil-sample",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@ionic/core": "^5.3.2",
+    "@stencil/core": "^2.0.1",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  },
+  "dependencies": {
+    "@types/pouchdb": "^6.4.0",
+    "pouchdb": "^7.2.2"
+  }
+}
